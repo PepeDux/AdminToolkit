@@ -1,0 +1,17 @@
+﻿<Page x:Class="AdminToolkit.SignInPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:AdminToolkit"
+      mc:Ignorable="d" 
+     Title="SignIn"  Height="400" Width="600">
+
+    <Grid>
+        <TextBox x:Name="login" HorizontalAlignment="Center" Margin="0,130,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <PasswordBox x:Name="password" HorizontalAlignment="Center" Margin="0,170,0,0" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="signIn" Content="Войти" HorizontalAlignment="Center" Click="Button_Click" Width="48" MouseEnter="signIn_MouseEnter" Margin="0,210,0,0" Height="20" VerticalAlignment="Top"/>
+        <Label Content="Логин" HorizontalAlignment="Left" Margin="190,123,0,0" VerticalAlignment="Top" Width="50" Height="30"/>
+        <Label Content="Пэрол" HorizontalAlignment="Left" Margin="190,163,0,0" VerticalAlignment="Top" Width="50" Height="30"/>
+    </Grid>
+</Page>
