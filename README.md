@@ -18,3 +18,11 @@
 
 ## Интерфейс
 ![изображение](https://github.com/PepeDux/AdminToolkit/assets/108129196/8562ef46-d80f-4773-a8fe-2f3ec3f4debf)
+
+## Разработчики
+[PepeDux](https://github.com/PepeDux)
+
+[VUDUse](https://github.com/VUDUse)
+
+[Rusik12551](https://github.com/Rusik12551)
+
